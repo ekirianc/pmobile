@@ -17,7 +17,16 @@ Memperkenalkan widget atau komponen lainnya yang dapat digunakan pada Android St
 <img src="https://i.ibb.co/1qDCGBd/modul-04.png">
 
 ## modul 05 - RecyclerView
-Menggunakan RecycleView untuk menampilkan daftar data
+RecycleView digunakan untuk menampilkan daftar data
 
 <img src="https://i.ibb.co/LnR47fh/modul-05-cr.png"> 
 
+## modul 06 - Intent
+Intent meneruskan data ke fragment/activity lain
+
+![modul 06](https://user-images.githubusercontent.com/26649247/172016984-b7348f4b-a949-4979-bead-63c3a5233a52.gif)
+
+## modul 07 - navigation
+just like the name. its navigating beetween fragment/activity
+
+![2022-06-05](https://user-images.githubusercontent.com/26649247/172016727-1ed4ed9d-e8a8-4f5a-ad21-4f11309a4fcd.gif)
