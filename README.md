@@ -19,5 +19,5 @@ Memperkenalkan widget atau komponen lainnya yang dapat digunakan pada Android St
 ## modul 05 - RecyclerView
 Menggunakan RecycleView untuk menampilkan daftar data
 
-<img src="https://i.ibb.co/LnR47fh/modul-05-cr.png" height="500"> 
+<img src="https://i.ibb.co/LnR47fh/modul-05-cr.png"> 
 
