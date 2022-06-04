@@ -15,3 +15,9 @@ untuk projek `Latihan 01` `Latihan 02` dan `Latihan 03`, copy dan replace kode d
 Memperkenalkan widget atau komponen lainnya yang dapat digunakan pada Android Studio
 
 <img src="https://i.ibb.co/1qDCGBd/modul-04.png" height="500">
+
+## modul 05 - RecyclerView
+Menggunakan RecycleView untuk menampilkan daftar data
+
+<img src="https://i.ibb.co/q7Z1XDh/05-praktik.png" height="500"> <img src="https://i.ibb.co/hWzGrFc/05-latihan.png" height="500"> <img src="https://i.ibb.co/n1NVQgf/05-tugas.png" height="500">
+
