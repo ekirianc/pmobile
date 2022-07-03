@@ -9,7 +9,7 @@ Constrain layout membuat sebuah komponen memiliki posisi relatif terhadap kompon
   
 untuk projek `Latihan 01` `Latihan 02` dan `Latihan 03`, copy dan replace kode dari file `.xml` ke `res > layout > activity_main.xml`
 
-<img src=" https://i.ibb.co/s9HQT4V/modul-03.png">
+<img src="https://i.ibb.co/s9HQT4V/modul-03.png">
 
 ## modul 04 - Widget
 Memperkenalkan widget atau komponen lainnya yang dapat digunakan pada Android Studio
