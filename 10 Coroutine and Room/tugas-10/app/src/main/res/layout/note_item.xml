@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--note_item-->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image_view_priority"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:padding="8dp"
+                android:src="@drawable/ic_baseline_push_pin_24" />
+
+            <TextView
+                android:id="@+id/text_view_title"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:fontFamily="sans-serif-medium"
+                android:maxLines="1"
+                android:paddingStart="8dp"
+                android:paddingLeft="6dp"
+                android:paddingBottom="0dp"
+                android:text="Judul"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tanggal"
+                android:paddingStart="8dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:text="matkul"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_title"
+                android:layout_marginTop="6dp"
+                android:fontFamily="sans-serif-light"
+                android:paddingStart="8dp"
+                android:text="tanggal"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

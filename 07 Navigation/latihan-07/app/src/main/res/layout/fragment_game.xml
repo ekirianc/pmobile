@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--layout/fragment_game.xml-->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pm.android.navigation.InGame">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/checkBox03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/bike01"
+                app:layout_constraintStart_toStartOf="@+id/bike01"
+                app:layout_constraintTop_toTopOf="@+id/bike01"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <CheckBox
+                android:id="@+id/checkBox01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/plane01"
+                app:layout_constraintStart_toStartOf="@+id/plane01"
+                app:layout_constraintTop_toTopOf="@+id/plane01"
+                app:layout_constraintVertical_bias="0.0" />
+            <CheckBox
+                android:id="@+id/checkBox04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/bike02"
+                app:layout_constraintStart_toStartOf="@+id/bike02"
+                app:layout_constraintTop_toTopOf="@+id/bike02"
+                app:layout_constraintVertical_bias="0.0" />
+            <CheckBox
+                android:id="@+id/checkBox02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:translationZ="90dp"
+                app:layout_constraintBottom_toBottomOf="@+id/plane02"
+                app:layout_constraintStart_toStartOf="@+id/plane02"
+                app:layout_constraintTop_toTopOf="@+id/plane02"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/questionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/question_horizontal_margin"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="@dimen/question_horizontal_margin"
+                android:fontFamily="sans-serif"
+                android:text="centang semua gambar yang terdapat"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/object_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="sans-serif"
+                android:text="pesawat"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/questionText" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/submit_button"
+                android:textSize="@dimen/button_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5
+"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/plane01"
+                app:layout_constraintVertical_bias="0.118" />
+
+            <ImageView
+                android:id="@+id/bike01"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="52dp"
+                android:src="@drawable/bike01"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/object_name" />
+
+            <ImageView
+                android:id="@+id/bike02"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="36dp"
+                android:src="@drawable/bike02"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.072"
+                app:layout_constraintStart_toEndOf="@+id/plane01"
+                app:layout_constraintTop_toBottomOf="@+id/plane02" />
+
+            <ImageView
+                android:id="@+id/plane01"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="36dp"
+                android:src="@drawable/plane01"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bike01" />
+
+            <ImageView
+                android:id="@+id/plane02"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="14dp"
+                android:src="@drawable/plane02"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.019"
+                app:layout_constraintStart_toEndOf="@+id/bike01"
+                app:layout_constraintTop_toTopOf="@+id/bike01" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

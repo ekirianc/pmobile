@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--navigation/navigation.xml-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.higerphi.tugas.LoginFragment"
+        android:label="login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_login_to_daftar"
+            app:destination="@id/daftarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.higerphi.tugas.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_home_to_confirm"
+            app:destination="@id/confirmFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/daftarFragment"
+        android:name="com.higerphi.tugas.DaftarFragment"
+        android:label="mendaftar"
+        tools:layout="@layout/fragment_daftar">
+        <action
+            android:id="@+id/action_daftar_to_home"
+            app:destination="@id/homeFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/confirmFragment"
+        android:name="com.higerphi.tugas.ConfirmFragment"
+        android:label="fragment_confirm"
+        tools:layout="@layout/fragment_confirm">
+        <action
+            android:id="@+id/action_confirm_to_login"
+            app:destination="@id/loginFragment"/>
+        <action
+            android:id="@+id/action_confirm_to_home"
+            app:destination="@id/homeFragment"/>
+    </fragment>
+
+</navigation>

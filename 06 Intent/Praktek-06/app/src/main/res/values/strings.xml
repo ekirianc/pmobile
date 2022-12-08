@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Praktik</string>
+    <string name="lbList">Button</string>
+    <string name="imglist">imgList</string>
+    <string name="lblist">lbList</string>
+    <string name="todo">TODO</string>
+    <string name="nomor">08272727</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="phone">Phone</string>
+</resources>

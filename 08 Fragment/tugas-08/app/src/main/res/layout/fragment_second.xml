@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--fragment_second-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="60dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:text="A"
+            android:textSize="30sp"
+            android:background="#9f9f9f"
+            android:padding="10dp"
+            android:textAlignment="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Status"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#333333"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap to add status update"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

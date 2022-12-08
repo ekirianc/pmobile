@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Daftar Laptop</string>
+    <string name="modelLaptop">model Laptop</string>
+    <string name="harga">harga</string>
+    <string name="nomor">Harga</string>
+    <string name="alamat">Spesifikasi :</string>
+</resources>

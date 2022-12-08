@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Twiiter </string>
+    <string name="lbList">Button</string>
+    <string name="imglist">imgList</string>
+    <string name="lblist">lbList</string>
+    <string name="imgList">imgList</string>
+    <string name="todo">TODO</string>
+</resources>
